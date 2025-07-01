@@ -7,7 +7,7 @@ const port = 5000;
 
 
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://frontend-blush-ten-79.vercel.app/",
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
